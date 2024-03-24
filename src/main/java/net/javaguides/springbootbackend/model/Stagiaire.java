@@ -19,7 +19,7 @@ public class Stagiaire {
 
     private String phone;
 
-
+    private String password;
 
 
 

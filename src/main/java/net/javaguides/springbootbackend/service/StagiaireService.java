@@ -32,5 +32,11 @@ public class StagiaireService {
     public void deleteStagiaire(Long id){
         stagiaireRepository.deleteById(id);
     }
-   
+
+    public Stagiaire FindByEmail( String email){
+        return stagiaireRepository.findByEmail(email);
+    }
+
+
+
 }

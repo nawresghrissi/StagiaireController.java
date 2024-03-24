@@ -6,6 +6,7 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface StagiaireRepository extends JpaRepository<Stagiaire, Long>{
 
-    Stagiaire findFirstByEmail(String email);
+    Stagiaire findByEmail(String email);
+
 
 }
